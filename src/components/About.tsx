@@ -54,9 +54,9 @@ const About = () => {
               <div className="relative w-80 h-100 lg:w-96 lg:h-100">
                 {/* Replace this placeholder with your actual photo */}
                 <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-800 rounded-3xl shadow-2xl border border-gray-600/50 flex items-center justify-center overflow-hidden">
-                              <img 
-        src="public/image/Image2.jpg" 
-        alt="Profile photo" 
+                       <img
+        src="/image/Image2.jpg"
+        alt="Profile photo"
         className="w-full h-full object-cover rounded-3xl shadow-2xl"
       />
                   {/* <div className="text-center text-white">

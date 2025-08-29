@@ -64,9 +64,9 @@ const Hero = () => {
                 <div className="w-full h-full bg-gradient-to-br from-blue-400 to-purple-500 rounded-3xl shadow-2xl flex items-center justify-center">
                   <div className="text-center text-white">
                     {/* <div className="w-32 h-32 bg-white/20 rounded-full mx-auto mb-4 flex items-center justify-center"> */}
-                    <img 
-        src="public/image/Image1.jpg" 
-        alt="Profile photo" 
+                    <img
+        src="/image/Image1.jpg"
+        alt="Profile photo"
         className="w-full h-full object-cover rounded-3xl shadow-2xl"
       />
                       {/* <span className="text-4xl">👨‍💻</span> */}
