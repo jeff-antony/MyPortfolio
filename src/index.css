@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Staggered float animation for skills */
+.skill-card:nth-child(1) .skill-icon { animation-delay: 0s; }
+.skill-card:nth-child(2) .skill-icon { animation-delay: 0.2s; }
+.skill-card:nth-child(3) .skill-icon { animation-delay: 0.4s; }
+.skill-card:nth-child(4) .skill-icon { animation-delay: 0.6s; }
+.skill-card:nth-child(5) .skill-icon { animation-delay: 0.8s; }
+.skill-card:nth-child(6) .skill-icon { animation-delay: 1s; }
+.skill-card:nth-child(7) .skill-icon { animation-delay: 1.2s; }
+.skill-card:nth-child(8) .skill-icon { animation-delay: 1.4s; }
+.skill-card:nth-child(9) .skill-icon { animation-delay: 1.6s; }
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}

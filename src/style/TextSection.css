@@ -1,0 +1,16 @@
+.typing-effect {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+  animation: typing 3s steps(30, end) 1, blink 0.5s step-end 9; /* Run typing once, blink 18 times (9s / 0.5s = 18) */
+}
+
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 100%; } /* Stop at full width */
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
