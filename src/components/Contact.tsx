@@ -27,14 +27,14 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'antonyjefin03@gmail.com.com',
+      link: 'mailto:antonyjefin03@gmail.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+91 XXXXX XXXXX',
-      link: 'tel:+91XXXXXXXXX'
+      value: '+91 7593077821',
+      link: 'tel:+917593077821'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -54,13 +54,13 @@ const Contact = () => {
     {
       icon: <Instagram className="w-6 h-6" />,
       name: 'Instagram',
-      url: '#',
+      url: 'https://www.instagram.com/_antonyjeffin_/',
       color: 'hover:text-pink-400'
     },
     {
       icon: <Facebook className="w-6 h-6" />,
       name: 'Facebook',
-      url: '#',
+      url: 'https://www.facebook.com/antonyjefin.jefin.3/?_rdr',
       color: 'hover:text-blue-400'
     }
   ];
