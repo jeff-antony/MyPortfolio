@@ -28,12 +28,12 @@ const Hero = () => {
                {/* <h2 className="text-3xl lg:text-4xl font-semibold text-white mb-2">
              <span className="typing-effect">I am Antony Jefin</span>
            </h2> */}
-              <h1 className="text-5xl lg:text-7xl font-bold text-white mb-4 leading-tight">
-                <span className="">I am Antony Jefin</span>
-                <span className="typing-effect block text-transparent bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text">
-                  Full Stack Developer
-                </span>
-              </h1>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4 leading-tight">
+  <span>I am Antony Jefin</span>
+  <span className="typing-effect block text-transparent bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text">
+    Full Stack Developer
+  </span>
+</h1>
               <p className="text-xl text-gray-300 mb-8 max-w-lg">
                 Crafting digital experiences with modern technologies and creative problem-solving
               </p>
