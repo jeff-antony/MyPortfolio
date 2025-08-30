@@ -2,18 +2,18 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'React', icon: '⚛️', color: 'from-blue-400 to-blue-600' },
-    { name: 'JavaScript', icon: '⚡', color: 'from-yellow-400 to-yellow-600' },
-    { name: 'TypeScript', icon: '📘', color: 'from-blue-500 to-blue-700' },
-    { name: 'CSS', icon: '🎨', color: 'from-blue-400 to-purple-600' },
-    { name: 'Bootstrap', icon: '🅱️', color: 'from-purple-500 to-purple-700' },
-    { name: 'MongoDB', icon: '🍃', color: 'from-green-400 to-green-700' },
-    { name: 'Angular', icon: '🅰️', color: 'from-red-400 to-red-600' },
-    { name: 'Node.js', icon: '🟢', color: 'from-green-400 to-green-600' },
-    { name: 'HTML', icon: '🌐', color: 'from-orange-400 to-orange-600' },
-    { name: 'SCSS', icon: '💎', color: 'from-pink-400 to-pink-600' },
-    { name: 'Git', icon: '📚', color: 'from-orange-500 to-red-500' },
-    { name: 'MySQL', icon: '🗄️', color: 'from-blue-400 to-indigo-600' },
+    { name: 'React', icon: '/image/physics.png', color: 'from-blue-400 to-blue-600' },
+    { name: 'JavaScript', icon: '/image/js-file.png', color: 'from-yellow-400 to-yellow-600' },
+    { name: 'TypeScript', icon: '/image/typescript.png', color: 'from-blue-500 to-blue-700' },
+    { name: 'CSS', icon: '/image/css-3.png', color: 'from-blue-400 to-purple-600' },
+    { name: 'Bootstrap', icon: '/image/media.png', color: 'from-purple-500 to-purple-700' },
+    { name: 'MongoDB', icon: '/image/database.png', color: 'from-green-400 to-green-700' },
+    { name: 'Angular', icon: '/image/programing.png', color: 'from-red-400 to-red-600' },
+    { name: 'Node.js', icon: '/image/programing (1).png', color: 'from-green-400 to-green-600' },
+    { name: 'HTML', icon: '/image/html.png', color: 'from-orange-400 to-orange-600' },
+    { name: 'SCSS', icon: '/image/sass.png', color: 'from-pink-400 to-pink-600' },
+    { name: 'Git', icon: '/image/icons8-git-48.png', color: 'from-orange-500 to-red-500' },
+    { name: 'MySQL', icon: '/image/icons8-mysql-48.png', color: 'from-blue-400 to-indigo-600' },
   ];
 
   return (
@@ -44,8 +44,12 @@ const Skills = () => {
             >
               <div className="skill-card bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 text-center hover:bg-gray-700/50 transition-all duration-500 border border-gray-700/50 hover:border-gray-600/50 hover:scale-110 hover:rotate-2">
                 {/* Floating Animation */}
-                <div className="skill-icon text-4xl mb-4 animate-float">
-                  {skill.icon}
+                <div className="skill-icon text-4xl mb-4 animate-float flex justify-center items-center">
+                  {skill.icon.endsWith('.png') || skill.icon.endsWith('.jpg') || skill.icon.endsWith('.svg') ? (
+    <img src={skill.icon} alt={skill.name} className="w-12 h-12 object-contain" />
+  ) : (
+    <span>{skill.icon}</span>
+  )}
                 </div>
                 
                 {/* Skill Name */}
