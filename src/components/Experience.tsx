@@ -4,16 +4,16 @@ import { Calendar, MapPin, Briefcase } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      period: '05/2025 - Present',
-      title: 'Full Stack Developer',
+      period: '05/2025 - 09/2025',
+      title: 'Full Stack Developer (Trainee)',
       company: 'InIT Solutions Pvt Ltd',
       location: 'Kochi, Kerala',
       description: 'Currently working as a Full Stack Developer, building comprehensive web solutions and implementing modern development practices.',
       technologies: ['React', 'Node.js', 'TypeScript', 'MongoDB'],
-      current: true
+      current: false
     },
     {
-      period: '01/2024 - 05/2025',
+      period: '01/2024 - present',
       title: 'Freelancer - Full Stack Developer',
       company: 'Independent',
       location: 'Remote',

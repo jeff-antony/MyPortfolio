@@ -2,18 +2,22 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'React', icon: '/image/physics.png', color: 'from-blue-400 to-blue-600' },
-    { name: 'JavaScript', icon: '/image/js-file.png', color: 'from-yellow-400 to-yellow-600' },
-    { name: 'TypeScript', icon: '/image/typescript.png', color: 'from-blue-500 to-blue-700' },
-    { name: 'CSS', icon: '/image/css-3.png', color: 'from-blue-400 to-purple-600' },
-    { name: 'Bootstrap', icon: '/image/media.png', color: 'from-purple-500 to-purple-700' },
-    { name: 'MongoDB', icon: '/image/database.png', color: 'from-green-400 to-green-700' },
-    { name: 'Angular', icon: '/image/programing.png', color: 'from-red-400 to-red-600' },
-    { name: 'Node.js', icon: '/image/programing (1).png', color: 'from-green-400 to-green-600' },
-    { name: 'HTML', icon: '/image/html.png', color: 'from-orange-400 to-orange-600' },
-    { name: 'SCSS', icon: '/image/sass.png', color: 'from-pink-400 to-pink-600' },
-    { name: 'Git', icon: '/image/icons8-git-48.png', color: 'from-orange-500 to-red-500' },
-    { name: 'MySQL', icon: '/image/icons8-mysql-48.png', color: 'from-blue-400 to-indigo-600' },
+ { name: 'HTML', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg', color: 'from-orange-400 to-orange-600' },
+    { name: 'CSS', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg', color: 'from-blue-400 to-purple-600' },
+    { name: 'JavaScript', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg', color: 'from-yellow-400 to-yellow-600' },
+    { name: 'TypeScript', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg', color: 'from-blue-500 to-blue-700' },
+    { name: 'React', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg', color: 'from-blue-400 to-blue-600' },
+    { name: 'Next.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg', color: 'from-gray-700 to-black' },
+    { name: 'Redux', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg', color: 'from-purple-500 to-purple-700' },
+    { name: 'Bootstrap', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg', color: 'from-purple-500 to-purple-700' },
+    { name: 'Material UI', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg', color: 'from-blue-400 to-indigo-600' },
+    { name: 'Node.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg', color: 'from-green-400 to-green-600' },
+    { name: 'Express.js', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg', color: 'from-gray-600 to-gray-800' },
+    { name: 'MongoDB', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg', color: 'from-green-400 to-green-700' },
+    { name: 'MySQL', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg', color: 'from-blue-400 to-indigo-600' },
+    { name: 'Git', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg', color: 'from-orange-500 to-red-500' },
+    { name: 'GitHub', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg', color: 'from-gray-600 to-black' },
+    { name: 'VS Code', icon: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg', color: 'from-blue-400 to-blue-700' },
   ];
 
   return (
